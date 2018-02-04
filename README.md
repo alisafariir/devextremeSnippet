@@ -1,6 +1,6 @@
 
 # Devextreme Snippet for VS Code
-This extension for Visual Studio Code adds snippets for Devextreme for HTML.
+This extension for Visual Studio Code adds snippets Devextreme for VS Code 
 
 ## Installation
 1. Install Visual Studio Code 0.10.x or higher
@@ -11,7 +11,7 @@ This extension for Visual Studio Code adds snippets for Devextreme for HTML.
 6. Reload Visual Studio Code
 
 ## Usage
-Type part of a snippet, press `enter`, and the snippet unfolds.
+Type part of a snippet (dx), press `enter`, and the snippet unfolds.
 
 ## Snippets
 Alternatively, press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to activate snippets from within the editor.
