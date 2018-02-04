@@ -2,7 +2,7 @@
 	"dx-textbox": {
 		"prefix": "dx-textbox",
 		"body": [
-			"<dx-text-box [(value)]=\"${1:value}\"></dx-text-box>",
+			"<dx-text-box [(value)]=\"${1:value}\" [disabled]=\"${2:false}\" [readOnly]=\"${3:false}\"></dx-text-box>",
 			"$0"
 		],
 		"description": "Text Box"
@@ -10,7 +10,7 @@
 	"dx-textarea": {
 		"prefix": "dx-textarea",
 		"body": [
-			"<dx-text-area [height]=\"${1:height}\" [maxLength]=\"${2:lenght}\" [(value)]=\"${3:value}\"></dx-text-area>",
+			"<dx-text-area [height]=\"${1:height}\" [maxLength]=\"${2:lenght}\" [(value)]=\"${3:value}\" [readOnly]=\"${4:false}\"></dx-text-area>",
 			"$0"
 		],
 		"description": "Text Area"
@@ -18,10 +18,26 @@
 	"dx-numberbox": {
 		"prefix": "dx-textarea",
 		"body": [
-			"<dx-number-box [(value)]=\"${1:value}\"[showSpinButtons]=\"${2:true}\" \"${3:true}\" [disabled]=\"${4:false}\" [readOnly]=\"${5:false}\"  [min]=\"${6:value}\" [max]=\"${7:value}\">",
+			"<dx-number-box [(value)]=\"${1:value}\" [showSpinButtons]=\"${2:true}\"  [showClearButton]=\"${3:true}\" [disabled]=\"${4:false}\" [readOnly]=\"${5:false}\"  [min]=\"${6:value}\" [max]=\"${7:value}\">",
 			"</dx-number-box>",
 			"$0"
 		],
 		"description": "Number Box"
+	},
+	"dx-checkbox": {
+		"prefix": "dx-checkbox",
+		"body": [
+			"<dx-check-box [(value)]=\"${1:value}\" [width]=\"${2:width}\" text=\"${3:text}\"></dx-check-box>",
+			"$0"
+		],
+		"description": "Check Box"
+	},
+	"dx-datebox": {
+		"prefix": "dx-datebox",
+		"body": [
+			"<dx-date-box [(value)]=\"${1:value}\" [type]=\"${2:datetime}\" [showClearButton]=\"${3:text}\"></dx-date-box>",
+			"$0"
+		],
+		"description": "Check Box"
 	}
 }
