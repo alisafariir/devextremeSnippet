@@ -15,12 +15,12 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 
 ##Snippets
 Alternatively, press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to activate snippets from within the editor.
-
+```
 dx-textbox          // creates an devextreme textbox
 dx-textarea         // creates an devextreme textarea
 dx-numberbox        // add a feature
 dx-checkbox         // add a plugin
 dx-datebox          // creates an Aurelia component
-
+```
 
 
