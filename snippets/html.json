@@ -2,7 +2,7 @@
 	"dx-textbox": {
 		"prefix": "dx-textbox",
 		"body": [
-			"<dx-text-box [(value)]=\"${1:variable}\"></dx-text-box>",
+			"<dx-text-box [(value)]=\"${1:value}\"></dx-text-box>",
 			"$0"
 		],
 		"description": "Text Box"
@@ -10,14 +10,18 @@
 	"dx-textarea": {
 		"prefix": "dx-textarea",
 		"body": [
-			"<dx-text-area [height]=\"${1:height}\" [maxLength]=\"${2:lenght}\" [(value)]=\"${3:variable}\"></dx-text-area>",
+			"<dx-text-area [height]=\"${1:height}\" [maxLength]=\"${2:lenght}\" [(value)]=\"${3:value}\"></dx-text-area>",
 			"$0"
 		],
 		"description": "Text Area"
+	},
+	"dx-numberbox": {
+		"prefix": "dx-textarea",
+		"body": [
+			"<dx-number-box [(value)]=\"${1:value}\"[showSpinButtons]=\"${2:true}\" \"${3:true}\" [disabled]=\"${4:false}\" [readOnly]=\"${5:false}\"  [min]=\"${6:value}\" [max]=\"${7:value}\">",
+			"</dx-number-box>",
+			"$0"
+		],
+		"description": "Number Box"
 	}
 }
-
-        
-        
-        
-    
