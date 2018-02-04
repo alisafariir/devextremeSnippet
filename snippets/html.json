@@ -1,13 +1,23 @@
 {
 	"dx-textbox": {
-		"prefix": "textbox",
+		"prefix": "dx-textbox",
 		"body": [
-			"<dx-label text=\"{{'${1:index}' | translate}}\">",
-			"<dx-text-box [(value)]='${2:index}'>",
-			"</dx-text-box>",
-			"</dx-label>",
+			"<dx-text-box [(value)]=\"${1:variable}\"></dx-text-box>",
 			"$0"
 		],
-		"description": "Text Box Angular"
+		"description": "Text Box"
+	},
+	"dx-textarea": {
+		"prefix": "dx-textarea",
+		"body": [
+			"<dx-text-area [height]=\"${1:height}\" [maxLength]=\"${2:lenght}\" [(value)]=\"${3:variable}\"></dx-text-area>",
+			"$0"
+		],
+		"description": "Text Area"
 	}
 }
+
+        
+        
+        
+    
