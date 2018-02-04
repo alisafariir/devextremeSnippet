@@ -1,0 +1,31 @@
+{
+    "name": "devextremesnippet",
+    "publisher": "asafari72",
+    "displayName": "Devextreme Snippets",
+    "description": "Devextreme HTML snippets",
+    "icon": "images/logo.png",
+    "galleryBanner": {
+        "color": "#ffffff",
+        "theme": "light"
+    },
+    "license": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/asafari72/devextremeSnippet.git"
+    },
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "0.10.x"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/html.json"
+            }
+        ]
+    }
+}

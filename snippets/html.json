@@ -1,0 +1,13 @@
+{
+	"dx-textbox": {
+		"prefix": "textbox",
+		"body": [
+			"<dx-label text=\"{{'${1:index}' | translate}}\">",
+			"<dx-text-box [(value)]='${2:index}'>",
+			"</dx-text-box>",
+			"</dx-label>",
+			"$0"
+		],
+		"description": "Text Box Angular"
+	}
+}
