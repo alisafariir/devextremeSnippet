@@ -16,7 +16,7 @@
 		"description": "Text Area"
 	},
 	"dx-numberbox": {
-		"prefix": "dx-textarea",
+		"prefix": "dx-numberbox",
 		"body": [
 			"<dx-number-box [(value)]=\"${1:value}\" [showSpinButtons]=\"${2:true}\"  [showClearButton]=\"${3:true}\" [disabled]=\"${4:false}\" [readOnly]=\"${5:false}\"  [min]=\"${6:value}\" [max]=\"${7:value}\">",
 			"</dx-number-box>",
