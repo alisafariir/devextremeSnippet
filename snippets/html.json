@@ -35,7 +35,7 @@
 	"dx-datebox": {
 		"prefix": "dx-datebox",
 		"body": [
-			"<dx-date-box [(value)]=\"${1:value}\" [type]=\"${2:datetime}\" [showClearButton]=\"${3:text}\"></dx-date-box>",
+			"<dx-date-box [(value)]=\"${1:value}\" [type]=\"${2:datetime}\" [showClearButton]=\"${3:true}\"></dx-date-box>",
 			"$0"
 		],
 		"description": "Date Box"
