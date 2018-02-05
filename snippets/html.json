@@ -39,5 +39,17 @@
 			"$0"
 		],
 		"description": "Check Box"
+	},
+	"dx-selectbox": {
+		"prefix": "dx-selectbox",
+		"body": [
+			"<dx-select-box [items]=\"${1:array}\" [value]=\"${2:value}\" [readOnly]=\"${3:false}\" [disabled]=\"${4:false}\"></dx-select-box>",
+			"$0"
+		],
+		"description": "Select Box"
 	}
 }
+
+
+
+
