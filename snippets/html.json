@@ -38,7 +38,7 @@
 			"<dx-date-box [(value)]=\"${1:value}\" [type]=\"${2:datetime}\" [showClearButton]=\"${3:text}\"></dx-date-box>",
 			"$0"
 		],
-		"description": "Check Box"
+		"description": "Date Box"
 	},
 	"dx-selectbox": {
 		"prefix": "dx-selectbox",
