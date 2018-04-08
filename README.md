@@ -18,9 +18,9 @@ Alternatively, press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to activ
 ```
 dx-textbox          // creates an devextreme textbox
 dx-textarea         // creates an devextreme textarea
-dx-numberbox        // add a feature
-dx-checkbox         // add a plugin
-dx-datebox          // creates an Aurelia component
+dx-numberbox        // creates an devextreme numberbox
+dx-checkbox         // creates an devextreme checkbox
+dx-datebox          // creates an devextreme datebox
 ```
 
 
