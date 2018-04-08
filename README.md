@@ -21,6 +21,15 @@ dx-textarea         // creates an devextreme textarea
 dx-numberbox        // creates an devextreme numberbox
 dx-checkbox         // creates an devextreme checkbox
 dx-datebox          // creates an devextreme datebox
+dx-selectbox          // creates an devextreme selectbox
+dx-radio-group          // creates an devextreme radio group
+dx-load-indicator          // creates an devextreme load indicator
+dx-load-panel          // creates an devextreme load panel
+dx-popover          // creates an devextreme popover
+dx-popup          // creates an devextreme popup
+dx-progress-bar          // creates an devextreme progress bar
+dx-tooltip          // creates an devextreme tooltip
+dx-menu          // creates an devextreme menu
 ```
 
 
