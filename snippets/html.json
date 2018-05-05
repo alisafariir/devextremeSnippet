@@ -168,5 +168,17 @@
 			"$0"
 		],
 		"description": "Menu"
-	}
+	},
+	"dx-button": {
+		"prefix": "dx-button",
+		"body": [
+		  "<dx-button",
+		  "[text]=\"${1:Text}\"",
+		  "[type]=\"${2:success}\"",
+		  "(onItemClick)=\"${3:buttonClick($event)}\">",
+		  "</dx-menu>",
+		  "$0"
+		],
+		"description": "Button"
+	  }
 }
