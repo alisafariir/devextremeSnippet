@@ -1,184 +1,211 @@
 {
 	"dx-textbox": {
-		"prefix": "dx-textbox",
-		"body": [
-			"<dx-text-box [(value)]=\"${1:value}\" [disabled]=\"${2:false}\" [readOnly]=\"${3:false}\"></dx-text-box>",
-			"$0"
-		],
-		"description": "Text Box"
+	  "prefix": "dx-textbox",
+	  "body": [
+		"<dx-text-box [(value)]=\"${1:value}\" [disabled]=\"${2:false}\" [readOnly]=\"${3:false}\"></dx-text-box>",
+		"$0"
+	  ],
+	  "description": "Text Box"
 	},
 	"dx-textarea": {
-		"prefix": "dx-textarea",
-		"body": [
-			"<dx-text-area [height]=\"${1:height}\" [maxLength]=\"${2:lenght}\" [(value)]=\"${3:value}\" [readOnly]=\"${4:false}\"></dx-text-area>",
-			"$0"
-		],
-		"description": "Text Area"
+	  "prefix": "dx-textarea",
+	  "body": [
+		"<dx-text-area [height]=\"${1:height}\" [maxLength]=\"${2:lenght}\" [(value)]=\"${3:value}\" [readOnly]=\"${4:false}\"></dx-text-area>",
+		"$0"
+	  ],
+	  "description": "Text Area"
 	},
 	"dx-numberbox": {
-		"prefix": "dx-numberbox",
-		"body": [
-			"<dx-number-box",
-			"[(value)]=\"${1:value}\"",
-			"[showSpinButtons]=\"${2:true}\"",
-			"[showClearButton]=\"${3:true}\"",
-			"[disabled]=\"${4:false}\"",
-			"[readOnly]=\"${5:false}\"",
-			"[min]=\"${6:value}\" [max]=\"${7:value}\">",
-			"</dx-number-box>",
-			"$0"
-		],
-		"description": "Number Box"
+	  "prefix": "dx-numberbox",
+	  "body": [
+		"<dx-number-box",
+		"[(value)]=\"${1:value}\"",
+		"[showSpinButtons]=\"${2:true}\"",
+		"[showClearButton]=\"${3:true}\"",
+		"[disabled]=\"${4:false}\"",
+		"[readOnly]=\"${5:false}\"",
+		"[min]=\"${6:value}\" [max]=\"${7:value}\">",
+		"</dx-number-box>",
+		"$0"
+	  ],
+	  "description": "Number Box"
 	},
 	"dx-checkbox": {
-		"prefix": "dx-checkbox",
-		"body": [
-			"<dx-check-box",
-			"[(value)]=\"${1:value}\"",
-			"[width]=\"${2:width}\"",
-			"text=\"${3:text}\">",
-			"</dx-check-box>",
-			"$0"
-		],
-		"description": "Check Box"
+	  "prefix": "dx-checkbox",
+	  "body": [
+		"<dx-check-box",
+		"[(value)]=\"${1:value}\"",
+		"[width]=\"${2:width}\"",
+		"text=\"${3:text}\">",
+		"</dx-check-box>",
+		"$0"
+	  ],
+	  "description": "Check Box"
 	},
 	"dx-datebox": {
-		"prefix": "dx-datebox",
-		"body": [
-			"<dx-date-box [(value)]=\"${1:value}\" [type]=\"${2:datetime}\" [showClearButton]=\"${3:true}\"></dx-date-box>",
-			"$0"
-		],
-		"description": "Date Box"
+	  "prefix": "dx-datebox",
+	  "body": [
+		"<dx-date-box [(value)]=\"${1:value}\" [type]=\"${2:datetime}\" [showClearButton]=\"${3:true}\"></dx-date-box>",
+		"$0"
+	  ],
+	  "description": "Date Box"
 	},
 	"dx-selectbox": {
-		"prefix": "dx-selectbox",
-		"body": [
-			"<dx-select-box [items]=\"${1:array}\" [value]=\"${2:value}\" [readOnly]=\"${3:false}\" [disabled]=\"${4:false}\"></dx-select-box>",
-			"$0"
-		],
-		"description": "Select Box"
+	  "prefix": "dx-selectbox",
+	  "body": [
+		"<dx-select-box [items]=\"${1:array}\" [value]=\"${2:value}\" [readOnly]=\"${3:false}\" [disabled]=\"${4:false}\"></dx-select-box>",
+		"$0"
+	  ],
+	  "description": "Select Box"
 	},
 	"dx-radio-group": {
-		"prefix": "dx-radio-group",
-		"body": [
-			"<dx-radio-group [items]=\"${1}\" [value]=\"${2}\" layout=\"${3:horizontal}\"></dx-radio-group>",
-			"$0"
-		],
-		"description": "Radio Group"
+	  "prefix": "dx-radio-group",
+	  "body": [
+		"<dx-radio-group [items]=\"${1}\" [value]=\"${2}\" layout=\"${3:horizontal}\"></dx-radio-group>",
+		"$0"
+	  ],
+	  "description": "Radio Group"
 	},
 	"dx-load-indicator": {
-		"prefix": "dx-load-indicator",
-		"body": [
-			"<dx-load-indicator width=\"${1}\" height=\"${2}\"></dx-load-indicator>",
-			"$0"
-		],
-		"description": "Load Indicator"
+	  "prefix": "dx-load-indicator",
+	  "body": [
+		"<dx-load-indicator width=\"${1}\" height=\"${2}\"></dx-load-indicator>",
+		"$0"
+	  ],
+	  "description": "Load Indicator"
 	},
 	"dx-load-panel": {
-		"prefix": "dx-load-panel",
-		"body": [
-			"<dx-load-panel",
-			"shadingColor=\"${1:rgba(0,0,0,0.4)}\"",
-			"[position]=\"${2:{ of: '#Selector' }}\"",
-			"[(visible)]=\"${3:variable}\"",
-			"[showIndicator]=\"${4:true}\"",
-			"[showPane]=\"${5:true}\"",
-			"[closeOnOutsideClick]=\"${6:false}\"",
-			"(onShown)=\"${7:onShown()}\"",
-			"(onHidden)=\"${8:onHidden()}\">",
-			"</dx-load-panel>",
-			"$0"
-		],
-		"description": "Load Panel"
+	  "prefix": "dx-load-panel",
+	  "body": [
+		"<dx-load-panel",
+		"shadingColor=\"${1:rgba(0,0,0,0.4)}\"",
+		"[position]=\"${2:{ of: '#Selector' }}\"",
+		"[(visible)]=\"${3:variable}\"",
+		"[showIndicator]=\"${4:true}\"",
+		"[showPane]=\"${5:true}\"",
+		"[closeOnOutsideClick]=\"${6:false}\"",
+		"(onShown)=\"${7:onShown()}\"",
+		"(onHidden)=\"${8:onHidden()}\">",
+		"</dx-load-panel>",
+		"$0"
+	  ],
+	  "description": "Load Panel"
 	},
 	"dx-popover": {
-		"prefix": "dx-popover",
-		"body": [
-			"<dx-popover",
-			"target=\"${1:#target}\"",
-			"position=\"${2:top}\"",
-			"[width]=\"${3:300}\"",
-			"[(visible)]=\"${4:Variable}\">",
-			"<div *dxTemplate=\"let data = model of 'content'\">",
-			"Your Content",
-			"</div>",
-			"</dx-popover>",
-			"$0"
-		],
-		"description": "Popover"
+	  "prefix": "dx-popover",
+	  "body": [
+		"<dx-popover",
+		"target=\"${1:#target}\"",
+		"position=\"${2:top}\"",
+		"[width]=\"${3:300}\"",
+		"[(visible)]=\"${4:Variable}\">",
+		"<div *dxTemplate=\"let data = model of 'content'\">",
+		"Your Content",
+		"</div>",
+		"</dx-popover>",
+		"$0"
+	  ],
+	  "description": "Popover"
 	},
 	"dx-popup": {
-		"prefix": "dx-popup",
-		"body": [
-			"<dx-popup",
-			"[width]=\"${1:300}\"",
-			"[height]=\"${2:250}\"",
-			"[showTitle]=\"${3:true}\"",
-			"title=\"${4:Title Here}\"",
-			"[dragEnabled]=\"${5:true}\"",
-			"[closeOnOutsideClick]=\"${6:true}\"",
-			"[(visible)]=\"${7:Varibale}\">",
-			"<div *dxTemplate=\"let data of 'content'\">",
-			"Your Content",
-			"</div>",
-			"</dx-popup>",
-			"$0"
-		],
-		"description": "Popup"
+	  "prefix": "dx-popup",
+	  "body": [
+		"<dx-popup",
+		"[width]=\"${1:300}\"",
+		"[height]=\"${2:250}\"",
+		"[showTitle]=\"${3:true}\"",
+		"title=\"${4:Title Here}\"",
+		"[dragEnabled]=\"${5:true}\"",
+		"[closeOnOutsideClick]=\"${6:true}\"",
+		"[(visible)]=\"${7:Varibale}\">",
+		"<div *dxTemplate=\"let data of 'content'\">",
+		"Your Content",
+		"</div>",
+		"</dx-popup>",
+		"$0"
+	  ],
+	  "description": "Popup"
 	},
 	"dx-progress-bar": {
-		"prefix": "dx-progress-bar",
-		"body": [
-			"<dx-progress-bar",
-			"[width]=\"${1}\"",
-			"[class.complete]=\"${2}\"",
-			"[min]=\"${3:0}\"",
-			"[max]=\"${4}\"",
-			"[statusFormat]=\"${6}\"",
-			"[value]=\"${7}\">",
-			"</dx-progress-bar>",
-			"$0"
-		],
-		"description": "Progress Bar"
+	  "prefix": "dx-progress-bar",
+	  "body": [
+		"<dx-progress-bar",
+		"[width]=\"${1}\"",
+		"[class.complete]=\"${2}\"",
+		"[min]=\"${3:0}\"",
+		"[max]=\"${4}\"",
+		"[statusFormat]=\"${6}\"",
+		"[value]=\"${7}\">",
+		"</dx-progress-bar>",
+		"$0"
+	  ],
+	  "description": "Progress Bar"
 	},
 	"dx-tooltip": {
-		"prefix": "dx-tooltip",
-		"body": [
-			"<dx-tooltip",
-			"target=\"${1:#target}\"",
-			"position=\"${2:top}\"",
-			"[(visible)]=\"${3:Varibale}\">",
-			"<div *dxTemplate=\"let data = data of 'content'\">",
-			"Your Content",
-			"</div>",
-			"</dx-tooltip>",
-			"$0"
-		],
-		"description": "Tooltip"
+	  "prefix": "dx-tooltip",
+	  "body": [
+		"<dx-tooltip",
+		"target=\"${1:#target}\"",
+		"position=\"${2:top}\"",
+		"[(visible)]=\"${3:Varibale}\">",
+		"<div *dxTemplate=\"let data = data of 'content'\">",
+		"Your Content",
+		"</div>",
+		"</dx-tooltip>",
+		"$0"
+	  ],
+	  "description": "Tooltip"
 	},
 	"dx-menu": {
-		"prefix": "dx-menu",
-		"body": [
-			"<dx-menu",
-			"[dataSource]=\"${1:dataSource}\"",
-			"displayExpr=\"${2:title}\"",
-			"orientation=\"${3:horizontal}\"",
-			"(onItemClick)=\"${4:menuItemClick($event)}\">",
-			"</dx-menu>",
-			"$0"
-		],
-		"description": "Menu"
+	  "prefix": "dx-menu",
+	  "body": [
+		"<dx-menu",
+		"[dataSource]=\"${1:dataSource}\"",
+		"displayExpr=\"${2:title}\"",
+		"orientation=\"${3:horizontal}\"",
+		"(onItemClick)=\"${4:menuItemClick($event)}\">",
+		"</dx-menu>",
+		"$0"
+	  ],
+	  "description": "Menu"
 	},
 	"dx-button": {
-		"prefix": "dx-button",
-		"body": [
-		  "<dx-button",
-		  "[text]=\"${1:Text}\"",
-		  "[type]=\"${2:success}\"",
-		  "(onItemClick)=\"${3:buttonClick($event)}\">",
-		  "</dx-menu>",
-		  "$0"
-		],
-		"description": "Button"
-	  }
-}
+	  "prefix": "dx-button",
+	  "body": [
+		"<dx-button",
+		"[text]=\"${1:Text}\"",
+		"[type]=\"${2:success}\"",
+		"(onItemClick)=\"${3:buttonClick($event)}\">",
+		"</dx-button>",
+		"$0"
+	  ],
+	  "description": "Button"
+	},
+	"dx-nav-bar": {
+	  "prefix": "dx-nav-bar",
+	  "body": [
+		"<dx-nav-bar",
+		"[dataSource]=\"${1}\"",
+		"[selectedIndex]=\"${2}\"",
+		"(onItemClick)=\"${3:navSelectionChanged($event)}\">",
+		"</dx-nav-bar>",
+		"$0"
+	  ],
+	  "description": "NavBar"
+	},
+	"dx-tree-view": {
+	  "prefix": "dx-tree-view",
+	  "body": [
+		"<dx-tree-view",
+		"[items]=\"${1}\"",
+		"[width]=\"${2:300}\"",
+		"(onItemClick)=\"${3:treeviewSelectedItem($event)}\"",
+		  "searchMode=\"${contains}\">",
+		  
+		"</dx-tree-view>",
+		"$0"
+	  ],
+	  "description": "Tree View"
+	}
+  }
+  
